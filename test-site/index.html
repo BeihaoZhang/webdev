@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!-- html教程：https://developer.mozilla.org/zh-CN/docs/learn/HTML -->
+<html>
+    <head>
+        <meta charset:"utf-8">
+        <title>My test page</title>
+        <link rel="stylesheet" href="styles/style.css", type="text/css">
+        <!-- 在当前网页下载 Open Sans 字体 -->
+        <link rel="stylesheet" href="https://fonts.font.im/css?family=Open+Sans">
+        
+    </head>
+    <body>             
+        <h1>你好，很高兴遇见你</h1>  
+        <!-- 嵌套元素 -->
+        <p class="editor-note">我的猫咪脾气<strong>爆</strong>😃</p>
+        <!-- 空元素：不包含任何内容的元素 -->
+        <!-- img就是一个空元素，它不需要内容产生效果 -->
+        <img src="images/黑色四叶草1.png" alt="My test image">
+        <p>梦想是什么，梦想就是一种让你感到坚持就是幸福的东西</p>
+        <p>你要把签证视作一张草纸，擦屁股都嫌硬</p>
+        <p>Mozilla 是一个全球社区，这里聚集着来自五湖四海的</p>
+        <ul>
+            <li>技术人员</li>
+            <li>思考者</li>
+            <li>建造者</li>
+        </ul>
+        <!--  -->
+        <p>我们致力于搭建起一个知识分享、互动的社区平台</p>
+        <p>请参阅<a href="https://www.baidu.com">百度首页</a></p>
+        <!-- 注：我们将 <script> 放在HTML文件的底部附近的原因是浏览器会按照代码在文件中的顺序加载 HTML。
+            如果先加载的 JavaScript 期望修改其下方的 HTML，那么它可能由于 HTML 尚未被加载而失效。
+            因此，将 JavaScript 代码放在 HTML页面的底部附近通常是最好的策略。 -->
+        <button>切换用户</button>
+        <script src="scripts/main.js"></script> 
+        
+    </body>
+</html>
